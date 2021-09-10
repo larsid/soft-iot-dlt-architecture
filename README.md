@@ -58,6 +58,8 @@ config:update
 
 ### 3.3 - Gerencia de bundles OSGI
 
+Tutorial de [como fazer um _bundle_ OSGI com o framework blueprint](https://github.com/larsid/osgi-blueprint-bundle-archetypes#readme).
+
 <!-- TODO:
   Explicar o que é um bundle OSGI
   Como criar um bundle OSGI utilizando blueprint.
