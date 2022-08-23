@@ -142,12 +142,29 @@ Alguns _bundles_ possuem dependências de serviços e isso significa que o _bund
 
 _Tabela de dependências entre bundles_
 
-## 5.x - Docker
+## 5.1 - Docker
+
+As imagens Docker estão disponibilizadas no Docker Hub, clique em um dos links abaixo para acessá-las.
+
+### 5.1.1 - [soft-iot-base](https://hub.docker.com/repository/docker/larsid/soft-iot-base)
+
+Imagem com os *bundles* básicos, utilize o seguinte comando para executá-la:
+```powershell
+docker run -i -t -p 1883:1883 -p 8181:8181 -p 1099:1099 -p 8101:8101 -p 61616:61616 -p 44444:44444 larsid/soft-iot-base:<tagname>
+```
+
+[Clique aqui](https://hub.docker.com/repository/docker/larsid/soft-iot-base) para obter mais informações sobre a imagem.
+
+### 5.1.2 [load-balancer](https://hub.docker.com/repository/docker/larsid/load-balancer)
+
+Imagem com os *bundles* necessários para executar o balancemento de carga. Utilize o seguinte comando para executá-la:
+```powershell
+docker run -i -t -p 1883:1883 -p 8181:8181 -p 1099:1099 -p 8101:8101 -p 61616:61616 -p 44444:44444  larsid/load-balancer:<tagname>
+```
+
+[Clique aqui](https://hub.docker.com/repository/docker/larsid/load-balancer) para obter mais informações sobre a imagem.
 
 <!-- Todo:
-    Colocar a imagem docker no docker hub.
-    Disponibilizar o link aqui.
-    Fazer tutorial ensinando como rodar uma instância.
     Fazer tutorial ensinando como rodar várias instânias.
  -->
 
