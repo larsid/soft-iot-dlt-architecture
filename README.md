@@ -109,7 +109,7 @@ utilizando um algoritimo de balanceamendo distribuido e seguro.
 A `soft-iot-dlt` é composta por 5 _bundles_ especificos da arquitetura e uma [implementação](https://github.com/larsid/soft-iot-mapping-devices) baseada no [soft-iot-mapping-devices](https://github.com/WiserUFBA/soft-iot-mapping-devices) utilizado na plataforma `soft-iot` como demonstrada na imagem abaixo.
 
 <figure>
-  <img src="images/soft-iot-dlt-arch-flow-arch-flow-2.0.png" alt="Fluxo dos dados na arquitetura soft-iot-dlt"/>
+  <img src="images/soft-iot-dlt-arch-flow-arch-flow-2.1.png" alt="Fluxo dos dados na arquitetura soft-iot-dlt"/>
   <figcaption>Imagem 1 - Fluxo dos dados na arquitetura soft-iot-dlt.</figcaption>
 </figure>
 
